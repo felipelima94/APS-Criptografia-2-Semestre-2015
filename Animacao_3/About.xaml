@@ -1,0 +1,16 @@
+﻿<Window x:Class="Animacao_3.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Animacao_3"
+        mc:Ignorable="d"
+        Title="Sobre" Height="396.578" Width="473.166" ResizeMode="NoResize" Background="{DynamicResource LightBrush}">
+    <Grid Margin="0,10,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" FontSize="13.333" Margin="10,0,10,10" TextWrapping="Wrap" TextAlignment="Justify"><Run Text="Atividade Prática Supervisionada UNIP Araçatuba 2015&#xA;&#xA;"/><Run Text="O Objetivo da atividade é "/><Run Text="ter a "/><Run Text="oportunidade de mostrar os conhecimentos adquiridos dentro e fora da sala."/><LineBreak/><Run Text="Nessa atividade tem o foco em criptografia, foi feito um programa que cifra e decifra uma senha para comparar com a senha digitada pelo usuário."/><LineBreak/><Span Foreground="Black"><Run Text="O método de criptografia usado foi o Triple Data Encryption Standard com o auxílio do MD5 para cifrar a chave usada."/></Span><LineBreak/><Run Text="&#xA;"/><Run FontWeight="Bold" Text="Alunos:"/><Run Text="&#xA;"/><Run FontFamily="Arial" Text="Alberto Toshihiro Suguiura"/><LineBreak/><Run FontWeight="Normal" FontSize="13.333" Text="Anderson AP Cassimiro dos santos"/><LineBreak/><Run FontWeight="Normal" FontSize="13.333" Text="Diego dos Santos David"/><LineBreak/><Run FontWeight="Normal" FontSize="13.333" Text="Felipe Costa Rodolfo de Lima"/><LineBreak/><Run FontWeight="Normal" FontSize="13.333" Text="Hugo Matheus Ferreira da Silva"/><LineBreak/><Run/><LineBreak/><Run Text="&#xA;"/><Run FontWeight="Bold" FontFamily="Arial" Text="Orientador"/><Run Text=":"/><Run Text=" "/><Run Text="Jônatas Leite de Oliveira"/></TextBlock>
+
+    </Grid>
+</Window>

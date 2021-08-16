@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Animacao_3"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="Animacao_3.Ajuda"
+        mc:Ignorable="d"
+        Title="Ajuda" Height="400.333" Width="542" ResizeMode="NoResize">
+    <Grid Background="{DynamicResource LightBrush}">
+        <TextBlock x:Name="textBlock" Margin="10,29,10,22" TextWrapping="Wrap"><Run Text="Ao iniciar o programa deve ligar o painel clicando na chave"/><Run Text=" e colocando na posição I"/><InlineUIContainer>
+        		<Image x:Name="image" Source="BotaoLigar.jpg" Height="101" Width="80"/>
+        	</InlineUIContainer><LineBreak/><Run Text="Após "/><Run Text="Ligar o painel, insira a senha e clique novamente no botão ligar"/><LineBreak/><Run Text="A senha é a data do sistema + os ultimo digito do RA de cada integrante"/><LineBreak/><InlineUIContainer>
+        		<Image x:Name="image1" Height="84" Width="283" Source="InsiraASenha_Ajuda.jpg"/>
+        	</InlineUIContainer><LineBreak/><Run Text="Uma mensagem irá aparecer mostrando se o carro foi ligado com sucesso"/><InlineUIContainer>
+        		<Image x:Name="image2" Height="37" Source="MensagemCarroLigado_Ajuda.jpg" Width="160"/>
+
+        	</InlineUIContainer><LineBreak/><Run Text="Para desligar, basta clicar em deligar que vai ser desligado."/><LineBreak/></TextBlock>
+        <Label x:Name="label" Content="Ajuda" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="13.333"/>
+
+    </Grid>
+</Window>
